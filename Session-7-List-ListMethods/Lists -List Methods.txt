@@ -1,0 +1,28 @@
+Lists , List Methods
+
+1) [] 
+2) list,list() 
+3) mutables 
+4) len , index
+5) they preserve the order - ordered data structures
+6) can store duplicate values
+
+# List Methods
+
+	ListName.method(argument)
+
+
+	1) Appending / adding values
+		ListName.append(Value)
+
+	2) extending / merging lists
+		ListName.extend(list)
+
+	3) Removing values 
+		ListName.remove(Value)
+
+	4) Popping out(removing) the values 
+		ListName.pop()
+
+		# Pop() -> index as argument , deletes values at the index
+
