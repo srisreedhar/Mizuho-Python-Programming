@@ -1,0 +1,21 @@
+fruits = ['melon','papaya','grapes','apple','cherry','banana']
+
+Iteration : It needs a collection & code
+
+for tempVar in fruits:
+	print(tempVar.upper())
+
+
+for fruits in fruits:
+	print(fruits)
+
+# find the length of all the values in fruits
+# ['melon-length of melon','papaya-length of papaya','grapes-length of grapes']
+
+['melon-5','papaya-6','grapes-6'..]
+
+for eachnumber in 123456789:
+	print(eachnumber)
+
+for eachchar in "python":
+	print(eachchar)
