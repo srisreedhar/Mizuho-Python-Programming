@@ -1,0 +1,68 @@
+fruits=['melon','papaya','grapes','apple','cherry','banana']
+quantities=[5,6,1,2,1,8]
+
+school
+	|_ Classes 10
+				|_ 60 students
+							 |_ 6 subjets
+							 			|_grading
+
+
+classes= [ class1,class2,class3......class10]
+class1_students=[a,b,c,d,e...]
+class1_sudents_subjects=[math,sci,netflic,hbo...]
+
+
+
+Dictionary | hashmaps | associative arrays 
+
+key-value pair
+
+one key-value pair - one value in the dictionary
+
+key - label/address/identifier of the value
+value - int, str,tuple, list, dict ...
+
+keys - unique
+
+
+{} - dictionary   / () - tuple , [] - list
+
+d={}
+
+Keys - string
+
+mutable data structures
+
+keyword - dict     	// list - list, tuple-tuple
+function - dict()
+
+
+{
+	"key1":"value1",
+	"key2":"value1",
+	"label3":["value1","value2"]
+}
+
+all the keyvalue pairs ina dictionary comma seperated
+
+
+Country	Population	Yearly	Net
+China	1439323776	0.0039	5540090
+India	1380004385	0.0099	13586631
+United States	331002651	0.0059	1937734
+
+
+{
+	Country:China,
+	Population:1439323776
+	Yearly:0.0039
+	Net:5540090
+}
+{
+	Country:India,
+	Population:1380004385
+	Yearly:0.0099
+	Net:5566690
+}
+
