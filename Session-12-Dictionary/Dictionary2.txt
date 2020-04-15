@@ -1,0 +1,97 @@
+fruits=['melon','papaya','grapes','apple','cherry','banana']
+quantities=[5,6,1,2,1,8]
+
+school
+	|_ Classes 10
+				|_ 60 students
+							 |_ 6 subjets
+							 			|_grading
+
+
+classes= [ class1,class2,class3......class10]
+class1_students=[a,b,c,d,e...]
+class1_sudents_subjects=[math,sci,netflic,hbo...]
+
+
+
+Dictionary | hashmaps | associative arrays 
+
+key-value pair
+
+one key-value pair - one value in the dictionary
+
+key - label/address/identifier of the value
+value - int, str,tuple, list, dict ...
+
+keys - unique
+
+
+{} - dictionary   / () - tuple , [] - list
+
+d={}
+
+Keys - string
+
+mutable data structures
+
+keyword - dict     	// list - list, tuple-tuple
+function - dict()
+
+
+{
+	"key1":"value1",
+	"key2":"value1",
+	"label3":["value1","value2"]
+}
+
+all the keyvalue pairs ina dictionary comma seperated
+
+
+Country	Population	Yearly	Net
+China	1439323776	0.0039	5540090
+India	1380004385	0.0099	13586631
+United States	331002651	0.0059	1937734
+
+
+{
+	Country:China,
+	Population:1439323776
+	Yearly:0.0039
+	Net:5540090
+}
+{
+	Country:India,
+	Population:1380004385
+	Yearly:0.0099
+	Net:5566690
+}
+
+# adding values to a Dict
+
+Dictname['NewKey']="NewValue"
+
+
+# extracting / performing operation on values
+dictName['keyName']
+
+# extracting  operation on values using a method
+
+dictName.get('keyName',"Message if the key doesn't exist")
+
+# printing all the keys in a dictionary
+
+DictName.keys()
+
+# printing allthe values in a dictionary
+
+Dictname.values()
+
+# converting the dict object into a list obj
+list(marks.keys())
+
+
+
+
+
+
+weather={"city":{"id":1880252,"name":"Singapore","coord":{"lon":103.8501,"lat":1.2897},"country":"SG","population":3547809,"timezone":28800},"cod":"200","message":8.8053935,"cnt":10,"list":[{"dt":1586926800,"sunrise":1586905208,"sunset":1586948919,"temp":{"day":33.83,"min":26.46,"max":33.83,"night":26.46,"eve":28.02,"morn":29.11},"feels_like":{"day":38.15,"night":30.2,"eve":31.77,"morn":33.9},"pressure":1010,"humidity":58,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":2.47,"deg":33,"clouds":54,"rain":1.56},{"dt":1587013200,"sunrise":1586991591,"sunset":1587035308,"temp":{"day":33.06,"min":26.33,"max":33.06,"night":26.33,"eve":27.81,"morn":26.62},"feels_like":{"day":35.82,"night":29.73,"eve":30.79,"morn":30.48},"pressure":1009,"humidity":50,"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"speed":2.19,"deg":83,"clouds":44},{"dt":1587099600,"sunrise":1587077975,"sunset":1587121696,"temp":{"day":32.63,"min":26.4,"max":32.63,"night":26.75,"eve":28,"morn":26.4},"feels_like":{"day":35.66,"night":30.37,"eve":31.46,"morn":31.24},"pressure":1009,"humidity":52,"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"speed":1.99,"deg":153,"clouds":96},{"dt":1587186000,"sunrise":1587164360,"sunset":1587208085,"temp":{"day":33.14,"min":26.78,"max":33.14,"night":27.12,"eve":28.04,"morn":26.78},"feels_like":{"day":35.54,"night":30.8,"eve":31.23,"morn":30.14},"pressure":1010,"humidity":49,"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"speed":2.52,"deg":83,"clouds":69},{"dt":1587272400,"sunrise":1587250745,"sunset":1587294474,"temp":{"day":31.9,"min":26.75,"max":31.9,"night":26.75,"eve":27.89,"morn":27.17},"feels_like":{"day":34.63,"night":30.32,"eve":31.32,"morn":31.37},"pressure":1009,"humidity":56,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":2.82,"deg":83,"clouds":55,"rain":4.82},{"dt":1587358800,"sunrise":1587337131,"sunset":1587380864,"temp":{"day":31,"min":26.7,"max":31.88,"night":26.7,"eve":27.91,"morn":27.03},"feels_like":{"day":35.03,"night":30.64,"eve":32.04,"morn":31.28},"pressure":1008,"humidity":64,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":2.03,"deg":112,"clouds":37,"rain":5.26},{"dt":1587445200,"sunrise":1587423517,"sunset":1587467255,"temp":{"day":32.57,"min":26.77,"max":32.57,"night":26.87,"eve":27.99,"morn":26.77},"feels_like":{"day":36.74,"night":30.85,"eve":32.26,"morn":31.26},"pressure":1008,"humidity":56,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":1.25,"deg":82,"clouds":30,"rain":7.74},{"dt":1587531600,"sunrise":1587509903,"sunset":1587553645,"temp":{"day":31.64,"min":27.12,"max":31.64,"night":27.15,"eve":28.49,"morn":27.12},"feels_like":{"day":34.9,"night":31.33,"eve":33.21,"morn":31.64},"pressure":1008,"humidity":59,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":2.54,"deg":167,"clouds":69,"rain":7.28},{"dt":1587618000,"sunrise":1587596290,"sunset":1587640037,"temp":{"day":31.95,"min":26.97,"max":31.95,"night":26.97,"eve":28.29,"morn":27.52},"feels_like":{"day":35.46,"night":31.48,"eve":32.56,"morn":31.98},"pressure":1008,"humidity":57,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":1.97,"deg":166,"clouds":97,"rain":5.04},{"dt":1587704400,"sunrise":1587682678,"sunset":1587726429,"temp":{"day":31.41,"min":26.71,"max":31.41,"night":26.71,"eve":27.79,"morn":26.89},"feels_like":{"day":36.48,"night":31.64,"eve":32.58,"morn":31.97},"pressure":1008,"humidity":62,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":0.44,"deg":333,"clouds":100,"rain":11.94}]}
