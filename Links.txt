@@ -1,0 +1,9 @@
+
+# API link to get 10 days weather info -add your api key to it
+
+http://api.openweathermap.org/data/2.5/forecast/daily?q=PLACENAME&cnt=10&mode=json&units=metric&APPID=YOURAPIKEYHERE
+
+
+# HTML API
+
+http://api.openweathermap.org/data/2.5/weather?q=PLACENAME&mode=html&appid=YOURAPIKEYHERE
