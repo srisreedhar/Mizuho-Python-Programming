@@ -3,13 +3,14 @@
 
 ## Assigning multiple URLS to a single webpage 
 
-@app.route('/index')
+```
+@app.route('/index') 
 @app.route('/home')
 @app.route('/')
 def aboutus():
     return '<h1>This is About US</h1>'
 
-
+```
 
 
 # Working with Templates
@@ -17,7 +18,7 @@ def aboutus():
 
 Folder Structure :
 
-
+```
 Base Project Folder
 	- FlaskApp.py
 	- templates
@@ -25,7 +26,7 @@ Base Project Folder
 		- home.html
 		- contactus.html
 
-
+```
 Create a HTML page/template
 
 place the file in templates folder
@@ -40,6 +41,6 @@ from the tempaltes folder.
 
 # # Jinja templating system
 
-{ % code/template tags %}
+`{ % code/template tags %}`
 
-{{ variables }}
+`{{ variables }}`
