@@ -1,12 +1,16 @@
 ## Dealing DataBases with Python
 
+###### A sample database with 11 tables, to practice.   
+[chinook SQLite sample DataBase to Practice](https://www.sqlitetutorial.net/sqlite-sample-database/)
+
+
 
 
 ### Sqlite DB links
 
 [Sqlite DB WebSite](https://www.sqlite.org/index.html)   
-[Sqlite DB GUI Tool for handling DB](https://sqlitebrowser.org/)
-
+[Sqlite DB GUI Tool for handling DB](https://sqlitebrowser.org/)   
+` Use this GUI tool to load the Chinook DataBase`
 
 ### SQL syntaxes we used in the class
 
