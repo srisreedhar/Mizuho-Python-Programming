@@ -16,11 +16,11 @@
 
 
 [SQL Create DB](https://www.w3schools.com/sql/sql_create_db.asp)  
-```
+``` sql
 CREATE DATABASE databasename; 
 ```
 [SQL Create Table](https://www.w3schools.com/sql/sql_create_table.asp)  
-```
+``` sql
 CREATE TABLE table_name (
     column1 datatype,
     column2 datatype,
@@ -29,12 +29,12 @@ CREATE TABLE table_name (
 ); 
 ```
 [SQL Insert Values into Table](https://www.w3schools.com/sql/sql_insert.asp)  
-```
+```sql
 INSERT INTO table_name (column1, column2, column3, ...)
 VALUES (value1, value2, value3, ...); 
 ```
 [SQL Select from Table](https://www.sqlite.org/index.html)  
-```
+```sql
 SELECT column1, column2, ...
 FROM table_name; 
 
