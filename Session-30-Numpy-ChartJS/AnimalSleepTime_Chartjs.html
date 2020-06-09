@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>AnimalSleepTime</title>
+        <!-- import plugin script -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js'></script>
+    </head>
+    <body>
+
+        <canvas id="income" width="1300" height="600"></canvas>
+        <script>
+            var barData = {
+                labels : ['Cheetah', 'Owl monkey', 'Mountain beaver', 'Greater short-tailed shrew', 'Cow', 'Three-toed sloth', 'Northern fur seal', 'Vesper mouse', 'Dog', 'Roe deer', 'Goat', 'Guinea pig', 'Grivet', 'Chinchilla', 'Star-nosed mole', 'African giant pouched rat', 'Lesser short-tailed shrew', 'Long-nosed armadillo', 'Tree hyrax', 'North American Opossum', 'Asian elephant', 'Big brown bat', 'Horse', 'Donkey', 'European hedgehog', 'Patas monkey', 'Western american chipmunk', 'Domestic cat', 'Galago', 'Giraffe', 'Pilot whale', 'Gray seal', 'Gray hyrax', 'Human', 'Mongoose lemur', 'African elephant', 'Thick-tailed opposum', 'Macaque', 'Mongolian gerbil', 'Golden hamster', 'Vole ', 'House mouse', 'Little brown bat', 'Round-tailed muskrat', 'Slow loris', 'Degu', 'Northern grasshopper mouse', 'Rabbit', 'Sheep', 'Chimpanzee', 'Tiger', 'Jaguar', 'Lion', 'Baboon', 'Desert hedgehog', 'Potto', 'Deer mouse', 'Phalanger', 'Caspian seal', 'Common porpoise', 'Potoroo', 'Giant armadillo', 'Rock hyrax', 'Laboratory rat', 'African striped mouse', 'Squirrel monkey', 'Eastern american mole', 'Cotton rat', 'Mole rat', 'Arctic ground squirrel', 'Thirteen-lined ground squirrel', 'Golden-mantled ground squirrel', 'Musk shrew', 'Pig', 'Short-nosed echidna', 'Eastern american chipmunk', 'Brazilian tapir', 'Tenrec', 'Tree shrew', 'Bottle-nosed dolphin', 'Genet', 'Arctic fox', 'Red fox'],
+                datasets : [
+                    {
+                        fillColor : "#FF6347",
+                        strokeColor : "#FF6347",
+                        data : [12.1, 17.0, 14.4, 14.9, 4.0, 14.4, 8.7, 7.0, 10.1, 3.0, 5.3, 9.4, 10.0, 12.5, 10.3, 8.3, 9.1, 17.4, 5.3, 18.0, 3.9, 19.7, 2.9, 3.1, 10.1, 10.9, 14.9, 12.5, 9.8, 1.9, 2.7, 6.2, 6.3, 8.0, 9.5, 3.3, 19.4, 10.1, 14.2, 14.3, 12.8, 12.5, 19.9, 14.6, 11.0, 7.7, 14.5, 8.4, 3.8, 9.7, 15.8, 10.4, 13.5, 9.4, 10.3, 11.0, 11.5, 13.7, 3.5, 5.6, 11.1, 18.1, 5.4, 13.0, 8.7, 9.6, 8.4, 11.3, 10.6, 16.6, 13.8, 15.9, 12.8, 9.1, 8.6, 15.8, 4.4, 15.6, 8.9, 5.2, 6.3, 12.5, 9.8]
+                    }
+                ]
+            }
+            // get bar chart canvas
+            var income = document.getElementById("income").getContext("2d");
+            // draw bar chart
+            new Chart(income).Bar(barData); 
+
+
+        </script>
+    </body>
+</html>
